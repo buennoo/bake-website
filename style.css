@@ -46,7 +46,7 @@ header {
     text-align: center;
     font-size: 14px;
 
-    border-bottom: 3px dotted rgb(77, 65, 55);
+
 }
 
 .header-title {
@@ -58,18 +58,13 @@ header {
     font-size: 36px;
     letter-spacing: 1px;
     color:rgb(75, 75, 75);
-    background-color: white;
 }
 
 .header-title a, .header-title a:visited{
     color:rgb(75, 75, 75);
     text-decoration: none;
-    cursor:default;
+    cursor: pointer;
     transition: color 0.2s linear 0ms;
-}
-
-.header-title a:hover{
-    color:rgb(26, 26, 26);
 }
 
 .header-aside {
@@ -84,7 +79,10 @@ header {
     padding: 0;
 
     font-family: "Mulish", sans-serif;
-    background-color: white;
+}
+
+.header-aside button {
+    transition: color 0.2s linear 0ms;
 }
 
 #loginButton:hover {
@@ -120,6 +118,9 @@ nav {
     font-size: 16px;
     background-color: lightcyan;
     text-align: center;
+
+    border-top: 2px dotted rgb(89, 89, 89);
+    border-bottom: 2px dotted rgb(89, 89, 89);
 }
 
 nav ul {
@@ -146,22 +147,18 @@ nav li {
 }
 
 nav li a{
-    color: rosybrown;
+    color:rgb(89, 89, 89);
     text-decoration: none;
     transition: color 0.2s linear 0ms;
 }
 
 nav li a:hover{
-    color: rgb(107, 82, 82)
+    color: rgb(36, 36, 36);
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-}
-
-.dropbtn {
-    background-color: aliceblue;
 }
 
 .recipes-content {
@@ -179,13 +176,6 @@ nav li a:hover{
     text-decoration: none;
     display: block;
 }
-
-.dropdown:hover .recipes-content {
-    display: block;
-    opacity: 1;
-    transform: scaleY(1);
-}
-
 
 main {
     margin: 0;
@@ -218,6 +208,10 @@ main {
     background-color: mistyrose;
 }
 
+.category:hover .category-name {
+    color:rgb(26, 26, 26)
+}
+
 .category img {
     border: 2px dashed rgb(77, 65, 55);
     width: 100%;
@@ -227,6 +221,7 @@ main {
     font-family: "Mulish", sans-serif;
     font-size: 20px;
     margin-top: 10px;
+    color:rgb(69, 69, 69);
 }
 
 button{
