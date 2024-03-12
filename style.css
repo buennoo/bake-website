@@ -177,6 +177,12 @@ nav li a:hover{
     display: block;
 }
 
+.dropdown:hover .recipes-content {
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
 main {
     margin: 0;
     padding: 0;
@@ -206,6 +212,10 @@ main {
     height: 250px;
     
     background-color: mistyrose;
+}
+
+.category:hover {
+    cursor: pointer;
 }
 
 .category:hover .category-name {
@@ -257,7 +267,8 @@ h2{
 }
 
 footer{
-    width: auto;
+    height: 100px;
+    background-color: aliceblue;
 }
 
 @keyframes fadeInAnimation {

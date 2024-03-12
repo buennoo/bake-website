@@ -16,3 +16,28 @@
 .recipe-info {
     display: block;
 }
+
+/* contact */
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 2em;
+}
+
+.contact-socials a {
+    transition: color 0.2s linear 0ms;
+}
