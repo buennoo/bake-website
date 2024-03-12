@@ -20,9 +20,9 @@
                     <button id="loginButton">Login</button>
                 </div>
                 <div class="search-container">
-                    <form class="search-bar" action="search.html">
+                    <form class="search-bar" onsubmit="redirect(event)">
                         <div class="md-form mt-0">
-                            <input class="form-control" id="searchBar" onkeyup="myFunction()" type="text" placeholder="Search.." aria-label="Search">
+                            <input class="form-control" id="searchBar" type="text" placeholder="Search.." aria-label="Search">
                         </div>
                         <button type="submit"><i class="bi bi-search-heart"></i></button>
                     </form> 
@@ -75,5 +75,12 @@
     <footer>
         footer
     </footer>
+    <script>
+        function redirect(event) {
+            event.preventDefault();
+            var searchTerm = document.getElementById('searchBar').value;
+            window.location.href = 'search.html?search=' + encodeURIComponent(searchTerm);;
+        }
+    </script>
 </body>
 </html>
