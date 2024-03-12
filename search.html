@@ -20,7 +20,7 @@
                     <button id="loginButton">Login</button>
                 </div>
                 <div class="search-container">
-                    <form class="search-bar" action="search.html">
+                    <form class="search-bar" onsubmit="redirect(event)">
                         <div class="md-form mt-0">
                             <input class="form-control" id="searchBar" type="text" placeholder="Search.." aria-label="Search">
                         </div>
@@ -85,11 +85,16 @@
         to be called after clicking search button
         */
 
-        var searchParams = new URLSearchParams(window.location.search);
-        var searchTerm = searchParams.get('search');
-
+        function redirect(event) {
+            event.preventDefault();
+            var searchTerm = document.getElementById('searchBar').value;
+            window.location.href = 'search.html?search=' + encodeURIComponent(searchTerm);
+        }
 
         document.addEventListener('DOMContentLoaded', function() {
+            var searchParams = new URLSearchParams(window.location.search);
+            var searchTerm = searchParams.get('search');
+
             var searchBar = document.getElementById('searchBar');
             searchBar.value = searchTerm;
 
@@ -97,8 +102,7 @@
                 return tab1.some(element => tab2.includes(element));
             }
 
-            searchBar.addEventListener('input', function(event){
-                var inputText = event.target.value.trim().toLowerCase().split(' ');
+            function searchFor(inputText) {
                 var recipes = document.querySelectorAll('.recipe');
 
                 function Recipe(title, description=null){
@@ -142,7 +146,13 @@
 
                 //console.log(toHideRecipes);
                 //console.log('-');
-            });
+            }
+            searchFor(searchTerm);
+
+            searchBar.addEventListener('input', function(event) {
+                var inputText = event.target.value.trim().toLowerCase().split(' ');
+                searchFor(inputText);
+            })
         });
         
     </script>
