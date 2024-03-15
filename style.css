@@ -275,7 +275,15 @@ main {
 }
 
 .category-best img {
-    width: 200px;
+    width: 250px;
+}
+
+.turn-left:hover {
+    transform: rotate(-10deg);
+}
+
+.turn-right:hover {
+    transform: rotate(10deg);
 }
 
 button{
