@@ -98,7 +98,7 @@ header {
 
 /* bootstrap */
 
-.bi-search-heart, .bi-moon-stars-fill {
+.bi-search-heart, .bi-moon-stars-fill, .bi-brightness-high-fill {
     font-size: 2em;
     transition: color 0.2s linear 0ms;
 }
@@ -313,6 +313,20 @@ h2{
 footer{
     height: 100px;
     background-color: aliceblue;
+}
+
+/* in the future */
+.future {
+    display: none;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px;
+}
+
+.login:hover .future {
+    color: black;
+    position: fixed;
+    display: block;
 }
 
 @keyframes fadeInAnimation {

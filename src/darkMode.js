@@ -3,6 +3,7 @@ const darkModeButton = document.querySelector("#dark-mode-button");
 
 const darkMode = () => {
     let allElements = document.querySelectorAll('*');
+    darkModeButton.innerHTML = "<i class='bi bi-brightness-high-fill'></i>";
     for (el of allElements) {
         el.style.backgroundColor = "#28282B";
         el.style.color = "white";
@@ -12,6 +13,7 @@ const darkMode = () => {
 
 const lightMode = () => {
     let allElements = document.querySelectorAll('*');
+    darkModeButton.innerHTML = "<i class='bi bi-moon-stars-fill'></i>";
     for (el of allElements) {
         el.style.backgroundColor = "";
         el.style.color = "";
