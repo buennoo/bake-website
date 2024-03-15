@@ -19,6 +19,10 @@ const lightMode = () => {
     localStorage.setItem("ifDark", null);
 }
 
+if (ifDark === "true") {
+    darkMode();
+}
+
 darkModeButton.addEventListener("click", () => {
     ifDark = localStorage.getItem("ifDark");
     if (ifDark !== "true") {
