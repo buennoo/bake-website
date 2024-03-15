@@ -17,6 +17,7 @@
                 <a href="index.html">bake coze</a>
             </div>
             <div class="header-aside">
+                <button id="dark-mode-button"><i class="bi bi-moon-stars-fill"></i></button>
                 <div class="login">
                     <button id="loginButton">Login</button>
                 </div>
@@ -39,14 +40,32 @@
                     <div class="recipes-content">
                         <ul>
                             <li>
-                                <a href="#">first</a>
-                                <a href="#">first</a>
-                                <a href="#">first</a>
+                                <a href="#">Cakes</a>
+                                <a href="#">Sponge cakes</a>
+                                <a href="#">Shortcrust cakes</a>
+                                <a href="#">Yeast cakes</a>
+                                <a href="#">Cheesecakes</a>
+                                <a href="#">Brownies</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">Cupcakes</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <li><a href="#">Best</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <li><a href="#">Categories</a></li>
+                    </button>
+                    <div class="recipes-content">
+                        <ul>
+                            <li>
+                                <a href="#">Ocassions</a>
+                                <a href="#">Fruit cakes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <li><a href="#">Filter</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -80,5 +99,6 @@
             window.location.href = 'search.html?search=' + encodeURIComponent(searchTerm);
         }
     </script>
+    <script src="src\darkMode.js"></script>
 </body>
 </html>
