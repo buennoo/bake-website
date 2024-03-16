@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="..\style.css">
+    <link rel="stylesheet" href="recipe.css">
     <!-- add integrity, crossorigin -->
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
-    <link  rel="stylesheet" href="node_modules\bootstrap-icons\font\bootstrap-icons.css">
+    <link rel="stylesheet" href="..\node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link  rel="stylesheet" href="..\node_modules\bootstrap-icons\font\bootstrap-icons.css">
     <title>cake coze</title>
 </head>
 <body>
     <div class="page-wrap">
         <header>
             <div class="header-title">
-                <a href="index.html">bake coze</a>
+                <a href="..\index.html">bake coze</a>
             </div>
             <div class="header-aside">
                 <button id="dark-mode-button"><i class="bi bi-moon-stars-fill"></i></button>
@@ -35,12 +36,12 @@
             <ul>
                 <div class="dropdown">
                     <button class="dropbtn">
-                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="..\recipes.html">Recipes</a></li>
                     </button>
                     <div class="recipes-content">
                         <ul>
                             <li>
-                                <a href="category\cake.html">Cakes</a>
+                                <a href="..\category\cake.html">Cakes</a>
                                 <a href="#">Sponge cakes</a>
                                 <a href="#">Shortcrust cakes</a>
                                 <a href="#">Yeast cakes</a>
@@ -68,46 +69,44 @@
                 <li><a href="#">Filter</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="..\contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <div class="main-categories">
-                <section class="category">
-                    <img src="assets\images\cheesecake.jpg" class="rounded">
-                    <div class="category-name">Cheesecakes</div>
-                </section>
-                <section class="category">
-                    <img src="assets\images\brownie.jpg" class="rounded">
-                    <div class="category-name">Brownies</div>
-                </section>
-                <section class="category">
-                    <img src="assets\images\applepie.jpg" class="rounded">
-                    <div class="category-name">Apple Pies</div>
-                </section>
-                <section class="category">
-                    <img src="assets\images\poundcake.jpg" class="rounded">
-                    <div class="category-name">Else</div>
-                </section>
-            </div>
-            <div class="main-best">
-                <section class="best">
-                    <h3>All time favourites</h3>
-                    <div class="category-best">
-                        <a href="recipes\template.html">
-                            <img src="assets\brownie_tr2.png" class="turn-right">
-                        </a>
-                        <a href="">
-                            <img src="assets\cake_tr.png" class="turn-left">
-                        </a>
-                        <a href="">
-                            <img src="assets\cheesecake_tr.png" class="turn-right">
-                        </a>
-                        <a href="">
-                            <img src="assets\cupcake_tr.png" class="turn-left">
-                        </a>
-                    </div>
-                </section>
+            <div class="recipe-box">
+                <div class="recipe-title">
+                    <h1>Brownie</h1>
+                </div>
+                <div class="recipe-info">
+                    <ul>
+                        <li>first</li>
+                        <li>second</li>
+                        <li>third</li>
+                        <li>fourth</li>
+                        <li>fifth</li>
+                    </ul>
+                </div>
+                <div class="recipe-image">
+                    <img src="..\assets\images\brownie.jpg" class="rounded">
+                </div>
+                <div class="ingridients">
+                    <h3>Ingridients</h3>
+                    <ul>
+                        <li>first</li>
+                        <li>sec</li>
+                        <li>third</li>
+                        <li>fourth</li>
+                    </ul>
+                </div>
+                <div class="recipe-steps">
+                    <ol>
+                        <li>First Step</li>
+                        <li>Second Step</li>
+                        <li>Third Step</li>
+                        <li>Fourth Step</li>
+                        <li>Fifth Step</li>
+                    </ol>
+                </div>
             </div>
         </main>
     </div>
@@ -121,6 +120,6 @@
             window.location.href = 'search.html?search=' + encodeURIComponent(searchTerm);
         }
     </script>
-    <script src="src\darkMode.js"></script>
+    <script src="..\src\darkMode.js"></script>
 </body>
 </html>

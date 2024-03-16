@@ -24,6 +24,9 @@ body {
 }
 
 .page-wrap {
+    display: flex;
+    flex-direction: column;
+
     margin: 0 auto;
     padding: 0;
 
@@ -190,7 +193,7 @@ main {
     margin: 0;
     padding: 0;
     
-    height: 100%;
+    flex: 1;
     word-wrap: break-word;
     background-color: lavenderblush;
 
@@ -247,6 +250,8 @@ main {
     margin-top: 30px;
     padding: 0;
 
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -271,11 +276,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .category-best img {
-    width: 250px;
+    width: 100%;
 }
 
 .turn-left:hover {
@@ -319,7 +324,6 @@ h2{
 }
 
 footer{
-    height: 100px;
     background-color: aliceblue;
 }
 
