@@ -220,6 +220,10 @@ main {
     background-color: mistyrose;
 }
 
+.category a {
+    text-decoration: none;
+}
+
 .category:hover {
     cursor: pointer;
 }
