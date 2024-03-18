@@ -2,13 +2,14 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
-    gap: 20px;
+    row-gap: 20px;
+    column-gap: 40px;
 
     margin: 0 auto;
     margin-top: 50px;
     padding: 0;
 
-    width: 70%;
+    width: 90%;
 }
 
 .recipe-title {
@@ -26,6 +27,7 @@
 
     height: fit-content;
     padding: 10px;
+    background-color:snow;
     border: 1px solid gray;
     border-radius: 10px;
 }
@@ -40,11 +42,14 @@
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;   
+    grid-row-end: 3;  
+    
+    margin: 0 auto;
+    padding: 0;
 }
 
 .recipe-image img {
-    width: 300px;
+    max-width: 300px;
 }
 
 .ingridients {
@@ -53,7 +58,10 @@
     grid-row-start: 3;
     grid-row-end: 4;
     
+    max-width: fit-content;
+
     position: sticky;
+    top: 10px;
     padding: 5px;
 
     background-color:snow;
