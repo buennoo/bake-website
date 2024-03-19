@@ -101,3 +101,9 @@
     grid-row-end: 6;  
 }
 
+.lactose-free {
+    color: darkorchid;
+    background: -webkit-linear-gradient(left, darkorchid, slateblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
