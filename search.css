@@ -41,3 +41,16 @@
 .contact-socials a {
     transition: color 0.2s linear 0ms;
 }
+
+/* recipes page */
+.recipes-search {
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 90%;
+}
+
+.recipes-search h1 {
+    color: rgb(69, 69, 69);
+}
