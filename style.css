@@ -276,6 +276,33 @@ main {
     margin-left: 25px;
 }
 
+.best .background {
+    position: relative;
+}
+
+.best .background::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 25px;
+    width: 240px;
+    height: 12px;
+    background-color: lavender;
+    z-index: 0.5;
+    /*transform: translateY(-10%);*/
+    transition: width 0.4s linear 0ms;
+}
+
+.best:hover .background::before {
+    width: 260px;
+} 
+
+
+
+.best .background h3 {
+    position: relative;
+}
+
 .category-best {
     display: flex;
     flex-direction: row;
