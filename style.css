@@ -297,8 +297,6 @@ main {
     width: 260px;
 } 
 
-
-
 .best .background h3 {
     position: relative;
 }
@@ -314,9 +312,29 @@ main {
     width: 100%;
 }
 
+/* add js hover script 
+.turn-left {
+    position: relative;
+}
+
+.turn-left::before {
+    content: ""; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 100%;
+    z-index: 1;
+}
+*/
+
 .turn-left:hover {
     transform: rotate(-10deg);
 }
+
 
 .turn-right:hover {
     transform: rotate(10deg);
