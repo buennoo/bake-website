@@ -103,7 +103,8 @@
 
 .lactose-free {
     color: darkorchid;
-    background: -webkit-linear-gradient(left, darkorchid, slateblue);
+    background-image: -webkit-linear-gradient(left, darkorchid, slateblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
