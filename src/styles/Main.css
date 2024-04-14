@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 main {
     display: flex;
     flex-direction: column;
@@ -10,6 +11,7 @@ main {
     background-color: lavenderblush;
 
     font-size: 16px;
+    font-family: "Mulish";
 }
 
 .main-content {

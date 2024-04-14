@@ -113,7 +113,6 @@
     transform: rotate(-10deg);
 }
 
-
 .turn-right:hover {
     transform: rotate(10deg);
 }
@@ -123,8 +122,8 @@ h2 {
     padding: 0;
 }
 
-.fade {
+/* .fade {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
-}
+} */

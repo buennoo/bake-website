@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { Discord, Facebook, Instagram } from 'react-bootstrap-icons';
 import '../styles/Contact.css';
 
@@ -12,9 +11,9 @@ export default function Contact() {
                 Contact info
             </p>
             <div class="contact-socials">
-                <Link to='/contact'><Discord/></Link>
-                <Link to='/contact'><Facebook/></Link>
-                <Link to='/contact'><Instagram/></Link>
+                <button onClick={() => window.location.href = 'https://github.com/buennoo'}><Discord/></button>
+                <button onClick={() => window.location.href = 'https://github.com/buennoo'}><Facebook/></button>
+                <button onClick={() => window.location.href = 'https://github.com/buennoo'}><Instagram/></button>
             </div>
         </div>  
     );

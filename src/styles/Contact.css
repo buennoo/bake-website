@@ -4,8 +4,7 @@
 }
 
 .contact {
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 0;
     padding: 0;
     text-align: left;
 }
@@ -15,8 +14,16 @@
     flex-direction: row;
     gap: 20px;
     font-size: 2em;
-}
-
-.contact-socials a {
     transition: color 0.2s linear 0ms;
 }
+
+button {
+    transition: color 0.2s linear 0ms;
+    color: rgb(114, 114, 205);
+}
+
+button:hover {
+    color: rgb(66, 66, 142);
+}
+
+
