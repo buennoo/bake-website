@@ -1,18 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import '../styles/Main.css';
-import Home from './Home';
 
 
-export default function Main() {
+export default function Main({ children }) {
     return (
-        <Router>
-            <main>
-                <Routes>
-                    <Route exact path="/" element={<Home />}>    
-                    </Route>
-                </Routes>
-            </main>
-        </Router>
+        <main>
+            <section className='main-content'>
+                {children}
+            </section>
+        </main>
     );
 }

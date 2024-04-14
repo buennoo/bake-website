@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
+import { Link } from 'react-router-dom';
 import cheesecakeImage from '../assets/images/cheesecake.jpg';
 import brownieImage from '../assets/images/brownie.jpg';
 import applePieImage from '../assets/images/applepie.jpg';
@@ -32,10 +33,10 @@ export default function Home() {
                 <div class="category-name">Apple Pies</div>
             </section> 
             <section class="category">
-                <a href="recipes\vanilla-pound-cake.html">
+                <Link to="#">
                     <img src={poundcakeImage} alt="Pound Cake" class="rounded"/>
                     <div class="category-name">Else</div>
-                </a>
+                </Link>
             </section>
         </div>
         <div class="main-best">
@@ -44,18 +45,18 @@ export default function Home() {
                     <h3>All time favourites</h3>
                 </div>
                 <div class="category-best">
-                    <a href="#">
-                        <img src={brownieTrImage} class="turn-right"/>
-                    </a>
-                    <a href="#">
-                        <img src={cakeTrImage} class="turn-left"/>
-                    </a>
-                    <a href="#">
-                        <img src={cheesecakeTrImage} class="turn-right"/>
-                    </a>
-                    <a href="#">
-                        <img src={cupcakeTrImage} class="turn-left"/>
-                    </a>
+                    <Link to="#">
+                        <img src={brownieTrImage} alt="Brownie" class="turn-right"/>
+                    </Link>
+                    <Link to="#">
+                        <img src={cakeTrImage} alt="Cake" class="turn-left"/>
+                    </Link>
+                    <Link to="#">
+                        <img src={cheesecakeTrImage} alt="Cheesecake" class="turn-right"/>
+                    </Link>
+                    <Link to="#">
+                        <img src={cupcakeTrImage} alt="Cupcake" class="turn-left"/>
+                    </Link>
                 </div>
             </section>
         </div>

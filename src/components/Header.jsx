@@ -1,11 +1,17 @@
 import { MoonStarsFill, SearchHeart } from 'react-bootstrap-icons';
 import '../styles/Header.css'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
+
+    const handleSearch = (event) => {
+        event.preventDefault();
+    }
+
     return (
         <header>
             <div class="header-title">
-                <a href="index.html">bake coze</a>
+                <Link to="/">bake coze</Link>
             </div>
             <div class="header-aside">
                 <button id="dark-mode-button">
@@ -15,7 +21,7 @@ export default function Header() {
                     <button id="loginButton">Login</button>
                 </div>
                 <div class="search-container">
-                    <form class="search-bar" onsubmit="redirect(event)">
+                    <form class="search-bar" onsubmit={handleSearch}>
                         <div class="md-form mt-0">
                             <input class="form-control" id="searchBar" type="text" placeholder="Search.." aria-label="Search"/>
                         </div>
