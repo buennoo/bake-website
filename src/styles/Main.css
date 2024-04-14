@@ -18,3 +18,8 @@ main {
     margin: 30px;
 }
 
+button {
+    transition: color 0.2s linear 0ms;
+}
+
+

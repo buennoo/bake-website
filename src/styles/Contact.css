@@ -17,12 +17,11 @@
     transition: color 0.2s linear 0ms;
 }
 
-button {
-    transition: color 0.2s linear 0ms;
-    color: rgb(114, 114, 205);
+.contact-socials button {
+    color: rgb(97, 97, 175);
 }
 
-button:hover {
+.contact-socials button:hover {
     color: rgb(66, 66, 142);
 }
 
