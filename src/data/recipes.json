@@ -2,25 +2,38 @@
     "recipes": [
         {
             "id": 1,
-            "title": "asdas",
-            "image": "path/path",
+            "title": "Vanilla Pound Cake",
+            "image": "Pound Cake",
+            "imagePath": "../../assets/images/vanillapoundcake.jpg",
             "tags": ["Pound Cake", "Easy", "No yeast", "Lactose-free", "Vegetarian"],
-            "preparation time": "232",
-            "baking time": "23233",
-            "baking temperature": "23233",
-            "baking mold": "23233",
-            "diet": "23233",
-            "kcal": "23233",
+            "preparationTime": "30 min",
+            "bakingTime": "50 min",
+            "bakingTemperature": "180 ℃",
+            "bakingMold": "25x25 cm",
+            "diet": ["lactose-free", "vegetarian"],
+            "kcal": "425kcal per 100g",
             "ingridients": [
-                "asdasd",
-                "asdasdsa",
-                "sadads"
+                "200g of butter (one stick)",
+                "180g of xylitol or sugar (3/4 cup)",
+                "2 teaspoons of vanilla sugar",
+                "6 eggs size M/L (large)",
+                "240g of cake flour 450 (about 1.5 cups)",
+                "1 packet of cream pudding with sugar",
+                "2 level teaspoons of baking powder",
+                "100ml of lactose-free milk",
+                "a pinch of salt"
             ],
             "instructions": [
-                "1. asdasda",
-                "2. dasdsa",
-                "3. dasadsd"
-            ]
+                "Melt the butter, then let it cool down.",
+                "Mix dry ingredients together: flour, baking powder, instant pudding.",
+                "Separate egg yolks from egg whites.",
+                "Beat egg yolks with xylitol/regular sugar and vanilla sugar along with a pinch of salt (about 4 minutes on low speed in a Thermomix), add milk, pour in the melted butter, and mix for another 10 seconds on the lowest speed until a smooth mixture forms.",
+                "<b>Beat egg whites until stiff</b>, VERY IMPORTANT!",
+                "Pour the mixture of egg yolks into the bowl with dry ingredients and mix thoroughly.",
+                "<b>Gently</b> fold in the beaten egg whites."
+            ],
+            "bakingInfo": "Bake for 50 minutes at 180 degrees Celsius, top and bottom heat mode in oven.",
+            "note": "After 50 minutes, insert a wooden stick and check if it's ready (it should be slightly moist). Open the oven door and leave for 10 minutes. Then let it cool."
         },
         {
             "id": 2,
