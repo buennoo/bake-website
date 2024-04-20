@@ -14,6 +14,7 @@ export default function Recipe({ recipeID }){
     const recipe = data.recipes.find(recipe => recipe.id === recipeID);
 
     if(!recipe) {
+        // here redirect to not_found
         return <div> Recipe not found </div>
     }
 
@@ -21,10 +22,10 @@ export default function Recipe({ recipeID }){
         <div class="recipe-main">
             <RecipeTitle title={recipe.title}/>
             <RecipeTags tags={recipe.tags}/>
-            <RecipeInfo/>
-            <RecipeImage/>
-            <RecipeIngridients/>
-            <RecipeSteps/>
+            <RecipeInfo info={recipe.info}/>
+            <RecipeImage path={recipe.imagePath} alt={recipe.image}/>
+            <RecipeIngridients ingridients={recipe.ingridients}/>
+            <RecipeSteps steps={recipe.steps} bakingInfo={recipe.bakingInfo} note={recipe.note}/>
         </div>
     );
 }

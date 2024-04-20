@@ -6,12 +6,14 @@
             "image": "Pound Cake",
             "imagePath": "../../assets/images/vanillapoundcake.jpg",
             "tags": ["Pound Cake", "Easy", "No yeast", "Lactose-free", "Vegetarian"],
-            "preparationTime": "30 min",
-            "bakingTime": "50 min",
-            "bakingTemperature": "180 ℃",
-            "bakingMold": "25x25 cm",
-            "diet": ["lactose-free", "vegetarian"],
-            "kcal": "425kcal per 100g",
+            "info": {
+                "preparationTime": "30 min",
+                "bakingTime": "50 min",
+                "bakingTemperature": "180 ℃",
+                "bakingMold": "25x25 cm",
+                "diet": ["lactose-free", "vegetarian"],
+                "kcal": "425kcal per 100g"
+            },
             "ingridients": [
                 "200g of butter (one stick)",
                 "180g of xylitol or sugar (3/4 cup)",
@@ -23,7 +25,7 @@
                 "100ml of lactose-free milk",
                 "a pinch of salt"
             ],
-            "instructions": [
+            "steps": [
                 "Melt the butter, then let it cool down.",
                 "Mix dry ingredients together: flour, baking powder, instant pudding.",
                 "Separate egg yolks from egg whites.",

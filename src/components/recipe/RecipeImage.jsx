@@ -1,7 +1,7 @@
-export default function RecipeImage(){
+export default function RecipeImage({path, alt}){
     return (
         <div class="recipe-image">
-            {/* <img src="..\..\assets\images\vanillapoundcake.jpg" class="rounded"/> */}
+            <img src={path} alt={alt} class="rounded"/>
         </div>
     );
 }
