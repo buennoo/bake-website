@@ -10,12 +10,6 @@ import cakeTrImage from '../assets/cake_tr.png';
 import cheesecakeTrImage from '../assets/cheesecake_tr.png';
 import cupcakeTrImage from '../assets/cupcake_tr.png';
 
-/*
-TO-DO
-delete hrefs
-*/
-
-
 export default function Home() {
     return (
         <>

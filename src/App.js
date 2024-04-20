@@ -4,9 +4,9 @@ import './App.css';
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import Footer from './components/Footer';
-import Contact from './components/Contact';
+import Contact from './pages/Contact';
 
 function App() {
   return (

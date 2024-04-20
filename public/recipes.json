@@ -1,0 +1,46 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "title": "asdas",
+            "tags": "232",
+            "preparation time": "232",
+            "baking time": "23233",
+            "baking temperature": "23233",
+            "baking mold": "23233",
+            "diet": "23233",
+            "kcal": "23233",
+            "ingridients": [
+                "asdasd",
+                "asdasdsa",
+                "sadads"
+            ],
+            "instructions": [
+                "1. asdasda",
+                "2. dasdsa",
+                "3. dasadsd"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "ddd",
+            "tags": "dd",
+            "preparation time": "dd",
+            "baking time": "dd",
+            "baking temperature": "dd",
+            "baking mold": "dddd",
+            "diet": "dd",
+            "kcal": "dd",
+            "ingridients": [
+                "dd",
+                "dddd",
+                "dddddd"
+            ],
+            "instructions": [
+                "1. ddd",
+                "2. ddddd",
+                "3. dddddd"
+            ]
+        }
+    ]
+}
