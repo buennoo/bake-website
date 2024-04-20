@@ -3,7 +3,8 @@
         {
             "id": 1,
             "title": "asdas",
-            "tags": "232",
+            "image": "path/path",
+            "tags": ["Pound Cake", "Easy", "No yeast", "Lactose-free", "Vegetarian"],
             "preparation time": "232",
             "baking time": "23233",
             "baking temperature": "23233",
@@ -24,6 +25,7 @@
         {
             "id": 2,
             "title": "ddd",
+            "image": "path/path",
             "tags": "dd",
             "preparation time": "dd",
             "baking time": "dd",
