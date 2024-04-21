@@ -65,7 +65,7 @@ header {
 
 /* bootstrap */
 
-.bi-search-heart, .bi-moon-stars-fill, .bi-brightness-high-fill {
+.bi-search-heart, .bi-moon-stars-fill, .bi-brightness-high-fill, .bi-sun-fill {
     font-size: 2em;
     transition: color 0.2s linear 0ms;
 }
