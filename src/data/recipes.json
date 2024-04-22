@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Vanilla Pound Cake",
             "image": "Pound Cake",
-            "imagePath": "../../assets/images/vanillapoundcake.jpg",
+            "imagePath": "../assets/images/vanillapoundcake.jpg",
             "tags": ["Pound Cake", "Easy", "No yeast", "Lactose-free", "Vegetarian"],
             "info": {
                 "preparationTime": "30 min",
@@ -30,9 +30,9 @@
                 "Mix dry ingredients together: flour, baking powder, instant pudding.",
                 "Separate egg yolks from egg whites.",
                 "Beat egg yolks with xylitol/regular sugar and vanilla sugar along with a pinch of salt (about 4 minutes on low speed in a Thermomix), add milk, pour in the melted butter, and mix for another 10 seconds on the lowest speed until a smooth mixture forms.",
-                "<b>Beat egg whites until stiff</b>, VERY IMPORTANT!",
+                "Beat egg whites until stiff, VERY IMPORTANT!",
                 "Pour the mixture of egg yolks into the bowl with dry ingredients and mix thoroughly.",
-                "<b>Gently</b> fold in the beaten egg whites."
+                "Gently fold in the beaten egg whites."
             ],
             "bakingInfo": "Bake for 50 minutes at 180 degrees Celsius, top and bottom heat mode in oven.",
             "note": "After 50 minutes, insert a wooden stick and check if it's ready (it should be slightly moist). Open the oven door and leave for 10 minutes. Then let it cool."

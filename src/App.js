@@ -8,12 +8,12 @@ import Home from "./pages/Home";
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Recipe from './pages/Recipe';
+import Search from './pages/Search';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const getDarkMode = () => {
-    // try catch
     try {
       if(localStorage.getItem('darkMode') !== null) {
         const getDark = localStorage.getItem('darkMode');
@@ -51,6 +51,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<Home />}/>
               <Route path="/contact" element={<Contact />}/>
+              <Route path="/search" element={<Search />}/>
               {/* temporary */}
               <Route path="/recipe" element={<Recipe />}/>
             </Routes>

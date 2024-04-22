@@ -42,7 +42,7 @@ export default function Navbar() {
                         </ul>
                     </div>
                 </div>
-                <li><Link to="#">Filter</Link></li>
+                <li><Link to="/search">Filter</Link></li>
                 <li><Link to="#">Blog</Link></li>
                 <li><Link to="#">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>

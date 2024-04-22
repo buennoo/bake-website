@@ -6,6 +6,12 @@ export default function Header({ switchDarkMode, isDarkMode }) {
 
     const handleSearch = (event) => {
         event.preventDefault();
+        let searchInput = document.getElementById("searchBar");
+        console.log(searchInput.value);
+
+        searchInput.value = '';
+
+        //redirect to search page with the following value
     }
 
     return (

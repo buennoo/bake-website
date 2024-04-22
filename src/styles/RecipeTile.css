@@ -1,0 +1,9 @@
+.tile {
+    /* temporary */
+    width: 200px;
+    overflow: hidden;
+
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 10px;
+}
