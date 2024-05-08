@@ -2,6 +2,8 @@
 A web application designed for baking enthusiasts. The site offers a collection of recipes for a variety of baked goods, from cakes to cookies. Users can browse recipes by categories.
 <br><br>**⚠️ This repository is a WIP. The application is still under development.**
 
+![bake-website](https://github.com/buennoo/bake-website/assets/127790828/df9c099c-7b97-4967-a736-eca22bee8c0a)
+
 ## 💫 Features
   - Browse Recipes: Discover a diverse range of baking recipes across different categories
   - Search and Filter: Quickly find recipes using search and filter options **WIP**
